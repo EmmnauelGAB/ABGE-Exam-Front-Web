@@ -1,1 +1,10 @@
-<p>main works!</p>
+<div class="main-container">
+  <div class="pokemon-grid">
+    <app-pokemon-card *ngFor="let pokemon of pokemons" [pokemon]="pokemon"
+      (pokemonClick)="openPokemonDetails(pokemon.id)">
+    </app-pokemon-card>
+  </div>
+  <mat-paginator [length]="totalPokemons" [pageSize]="pageSize" [pageIndex]="currentPage"
+    (page)="handlePageEvent($event)">
+  </mat-paginator>
+</div>

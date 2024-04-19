@@ -1,0 +1,50 @@
+
+.mat-dialog-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+.custom-dialog-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f85d5d;
+  padding: 30px;
+
+  .dialog-close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+  }
+}
+.back-blue {
+  background-color: aqua;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.title-fun {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(190, 190, 190);
+  padding-inline: 15px;
+  margin-inline: 250px;
+  border-radius: 15px;
+}
+
+h2 {
+  margin: 0;
+}
+
+.detail-fun{
+  background-color: rgb(190, 190, 190);
+  padding: 15px 0;
+  border-radius: 25px;
+  margin-top: 10px;
+  padding-inline: 20px;
+}

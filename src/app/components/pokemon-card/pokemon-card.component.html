@@ -1,0 +1,13 @@
+<div class="pokemon-grid" >
+  <div class="pokemon-card" (click)="pokemonClick.emit(pokemon.id)">
+    <mat-card  >
+      <mat-card-content class="back-blue"><h3>{{ pokemon.name | titlecase }}</h3></mat-card-content>
+      <div class="flex-container-button">
+        <button mat-mini-fab class="custom-fab-size">
+        </button>
+        <button mat-mini-fab class="custom-fab-size">
+        </button>
+      </div>
+    </mat-card>
+  </div>
+</div>

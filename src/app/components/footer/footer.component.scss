@@ -1,0 +1,12 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  background: linear-gradient(to right, #FFA500, #FFFFFF);
+}
